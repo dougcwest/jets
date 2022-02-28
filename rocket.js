@@ -1,7 +1,10 @@
-var Rocket = function (color, size, name) {
+var Rocket = function (color, size) {
   this.color = color;
   this.size = size;
-  this.name = name;
+
+  this.launch = function () {
+    console.log("3, 2, 1, blastoff!");
+  };
 };
 
 module.exports = Rocket;
